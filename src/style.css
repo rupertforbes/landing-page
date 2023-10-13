@@ -1,9 +1,14 @@
 :root {
   --button-color: #885df1;
+  --background-color: #f5f2fe;
+  --font: "Roboto", sans-serif;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  text-align: center;
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
 }
 
 .main {
@@ -13,14 +18,22 @@ body {
 
 h2 {
   font-size: 45px;
+  font-family: var(--font);
 }
 
 h1 {
   font-size: 55px;
+  font-family: var(--font);
 }
 
 h3 {
   font-size: 25px;
+  font-family: var(--font);
+}
+
+h4 {
+  font-size: 20px;
+  font-family: var(--font);
 }
 
 .buttons {
@@ -41,11 +54,49 @@ h3 {
   background-color: var(--button-color);
   color: white;
   margin-left: 80px;
+  transition: 300ms ease-in-out;
+}
+
+.contact-me:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .about-me {
   border-color: var(--button-color);
-  color: var(--button-color);
   background-color: white;
   margin-right: 80px;
+  color: var(--button-color);
+  transition: 300ms ease-in-out;
+}
+
+.about-me:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font-family: var(--font);
+}
+
+.column {
+  padding: 20px;
+  border: 1px solid var(--button-color);
+  background-color: var(--background-color);
+  color: var(--button-color);
+  border-radius: 7px;
+  margin: 10px;
+}
+
+p {
+  font-family: var(--font);
+  font-size: 20px;
+}
+
+.icon {
+  font-size: 100px;
+  margin: 0;
 }
