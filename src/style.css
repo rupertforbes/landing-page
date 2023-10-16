@@ -16,17 +16,17 @@ body {
   text-align: center;
 }
 
-h2 {
+.two {
   font-size: 45px;
   font-family: var(--font);
 }
 
-h1 {
+.one {
   font-size: 55px;
   font-family: var(--font);
 }
 
-h3 {
+.three {
   font-size: 25px;
   font-family: var(--font);
 }
