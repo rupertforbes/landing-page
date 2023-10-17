@@ -107,3 +107,7 @@ p {
   font-size: 100px;
   margin: 0;
 }
+
+.hover-underline:hover {
+  text-decoration: underline;
+}
