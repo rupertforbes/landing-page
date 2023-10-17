@@ -10,51 +10,90 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&family=Satisfy&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <a href="index.html">Back to homepage</a>
-    <h1>About me</h1>
-    <h4>Front-end developer from London, UK</h4>
-    <div class="content">
-      <div class="column">
-        <p>
-          Mousa Sidi Yaya Dembélé (born 16 July 1987) is a Belgian former
-          professional footballer who played as a central midfielder. He was
-          regarded as one of the best box-to-box midfielders in Europe due to
-          his excellent dribbling skills and ability to maintain possession.
-        </p>
-        <br />
-        <p>
-          Dembélé started his career at Belgian Pro League team Germinal
-          Beerschot before spells at Eredivisie sides Willem II and AZ in the
-          Netherlands. He won the league title and the Johan Cruyff Shield with
-          the latter in 2009. Dembélé transferred to Premier League side Fulham
-          in 2010 before joining Tottenham Hotspur for a fee of £15 million in
-          August 2012. He was ranked 91st in The Guardian's list of the 100 best
-          current footballers in 2012.
-        </p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Rupert Forbes</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-me.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-me.html#contact-me">Contact me</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="column">
-        <p>
-          Mousa Sidi Yaya Dembélé (born 16 July 1987) is a Belgian former
-          professional footballer who played as a central midfielder. He was
-          regarded as one of the best box-to-box midfielders in Europe due to
-          his excellent dribbling skills and ability to maintain possession.
-        </p>
-        <br />
-        <p>
-          Dembélé started his career at Belgian Pro League team Germinal
-          Beerschot before spells at Eredivisie sides Willem II and AZ in the
-          Netherlands. He won the league title and the Johan Cruyff Shield with
-          the latter in 2009. Dembélé transferred to Premier League side Fulham
-          in 2010 before joining Tottenham Hotspur for a fee of £15 million in
-          August 2012. He was ranked 91st in The Guardian's list of the 100 best
-          current footballers in 2012.
-        </p>
+    </nav>
+
+    <h1 class="one text-start mt-5 mx-5">About me</h1>
+    <h4 class="text-start mx-5 subtitle">
+      Front-end developer from London, UK
+    </h4>
+    <br />
+    <p class="mx-5">
+      Mousa Sidi Yaya Dembélé (born 16 July 1987) is a Belgian former
+      professional footballer who played as a central midfielder. He was
+      regarded as one of the best box-to-box midfielders in Europe due to his
+      excellent dribbling skills and ability to maintain possession.
+    </p>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="images/weather-app.png"
+            class="img-fluid rounded mb-3 shadow-sm p-2 border image"
+          />
+        </div>
+        <div class="col-md-4">
+          <img
+            src="images/world-clock.png"
+            class="img-fluid rounded mb-3 shadow-sm p-2 border image"
+          />
+        </div>
+        <div class="col-md-4">
+          <img
+            src="images/meme-generator.png"
+            class="img-fluid rounded mb-3 shadow-sm p-2 border image"
+          />
+        </div>
       </div>
-      <br />
     </div>
+
     <p class="icon">📬</p>
     <p id="contact-me">
       Contact me:

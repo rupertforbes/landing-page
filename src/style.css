@@ -21,6 +21,7 @@ body {
 .one {
   font-size: 55px;
   font-family: var(--font);
+  font-weight: bold;
 }
 
 .three {
@@ -74,11 +75,10 @@ h4 {
   cursor: pointer;
 }
 
-.content {
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
-  font-family: var(--font);
+.subtitle {
+  color: darkslategrey;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .column {
@@ -93,6 +93,14 @@ h4 {
 p {
   font-family: var(--font);
   font-size: 20px;
+}
+
+.image {
+  transition: 300ms all ease-in-out;
+}
+
+.image:hover {
+  transform: scale(1.2);
 }
 
 .icon {
