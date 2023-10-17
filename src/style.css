@@ -57,7 +57,8 @@ h4 {
   transition: 300ms ease-in-out;
 }
 
-.contact-me:hover {
+button:hover,
+.app:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
@@ -68,11 +69,6 @@ h4 {
   margin-right: 80px;
   color: var(--button-color);
   transition: 300ms ease-in-out;
-}
-
-.about-me:hover {
-  transform: scale(1.1);
-  cursor: pointer;
 }
 
 .subtitle {
