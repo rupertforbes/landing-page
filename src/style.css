@@ -4,6 +4,22 @@
   --font: "Roboto", sans-serif;
 }
 
+.initials {
+  margin: 1px solid white;
+  padding: 5px;
+  background-color: white;
+  color: #212529;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  font-family: "Lobster", sans-serif;
+}
+
+.initials:hover {
+  background-color: #212529;
+  color: white;
+}
+
 body {
   text-align: center;
 }
@@ -111,5 +127,10 @@ p {
 @media (max-width: 992px) {
   .bottom-margin {
     margin-bottom: 30px;
+  }
+
+  .card {
+    display: block;
+    margin: 0 auto;
   }
 }
