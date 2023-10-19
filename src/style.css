@@ -134,3 +134,14 @@ p {
     margin: 0 auto;
   }
 }
+
+.icons {
+  width: 60px;
+  display: block;
+  margin: 0 auto;
+}
+
+.icon-text {
+  text-align: center;
+  font-size: 15px;
+}
