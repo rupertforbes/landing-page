@@ -1,7 +1,7 @@
 :root {
   --button-color: #885df1;
   --background-color: #f5f2fe;
-  --font: "Roboto", sans-serif;
+  --font: "Roboto Slab", serif;
   --topnav-color: #212529;
 }
 
@@ -22,6 +22,7 @@
 
 body {
   text-align: center;
+  font-family: "Roboto Slab", serif;
 }
 
 .home-container {
@@ -40,7 +41,7 @@ body {
 
 .one {
   font-size: 55px;
-  font-family: var(--font);
+  font-family: "Roboto";
   font-weight: bold;
 }
 
@@ -180,4 +181,15 @@ p {
 
 .card {
   margin: 0 auto;
+}
+
+.portfolio-h1 {
+  margin-left: 80px;
+}
+
+@media (max-width: 577px) {
+  .portfolio-h1 {
+    margin-left: 0px;
+    text-align: center !important;
+  }
 }
