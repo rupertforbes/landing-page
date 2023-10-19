@@ -8,8 +8,7 @@
 .initials {
   margin: 1px solid white;
   padding: 5px;
-  background-color: white;
-  color: #212529;
+  color: white;
   width: 40px;
   height: 40px;
   border-radius: 20px;
@@ -17,12 +16,16 @@
 }
 
 .initials:hover {
-  background-color: #212529;
-  color: white;
+  background-color: white;
+  color: #212529;
 }
 
 body {
   text-align: center;
+}
+
+.home-container {
+  margin-top: 80px;
 }
 
 .main {
@@ -48,15 +51,18 @@ body {
 
 .albania {
   max-width: 100%;
-  max-height: 300px;
+  max-height: 400px;
   border-radius: 15px;
-  margin-top: 50px;
   border: 8px solid #212529;
 }
 
 h4 {
   font-size: 20px;
   font-family: var(--font);
+}
+
+#portfolio {
+  margin-top: 80px;
 }
 
 .contact-me,
@@ -169,5 +175,9 @@ p {
 
 .thin {
   max-width: 300px;
+  margin: 0 auto;
+}
+
+.card {
   margin: 0 auto;
 }
