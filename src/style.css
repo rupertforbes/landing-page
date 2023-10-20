@@ -41,8 +41,8 @@ body {
 
 .one {
   font-size: 55px;
-  font-family: "Roboto";
   font-weight: bold;
+  font-family: "Roboto";
 }
 
 .three {
@@ -221,7 +221,7 @@ p {
   text-align: center;
   font-family: Helvetica;
   background-color: white;
-  color: var(--topnav-color);
+  color: darkslategrey;
   padding: 15px;
   border-radius: 50px;
   text-decoration: none;
