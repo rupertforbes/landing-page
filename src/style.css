@@ -89,6 +89,16 @@ h4 {
   transition: 300ms ease-in-out;
 }
 
+.button {
+  transition: 300ms all ease-in-out;
+  background-color: var(--button-color);
+}
+
+.button:hover {
+  background-color: var(--button-color);
+  opacity: 0.8;
+}
+
 button:hover,
 .app:hover {
   transform: scale(1.1);
