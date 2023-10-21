@@ -92,6 +92,7 @@ h4 {
 .button {
   transition: 300ms all ease-in-out;
   background-color: var(--button-color);
+  border: none;
 }
 
 .button:hover {
