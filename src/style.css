@@ -214,6 +214,10 @@ p {
     text-align: center !important;
     font-size: 40px;
   }
+
+  #myemail {
+    font-size: 25px !important;
+  }
 }
 
 .support {
