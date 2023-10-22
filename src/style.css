@@ -160,6 +160,16 @@ p {
     display: block;
     margin: 0 auto;
   }
+
+  .large-screen {
+    display: none;
+  }
+
+  .small-screen {
+    display: block !important;
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 .icons {
@@ -200,8 +210,9 @@ p {
 
 @media (max-width: 577px) {
   .portfolio-h1 {
-    margin-left: 0px;
+    margin-left: 0px !important;
     text-align: center !important;
+    font-size: 40px;
   }
 }
 
@@ -231,4 +242,8 @@ p {
 
 #myemail:hover {
   text-decoration: underline;
+}
+
+.small-screen {
+  display: none;
 }
