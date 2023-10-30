@@ -151,27 +151,6 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 992px) {
-  .bottom-margin {
-    margin-bottom: 30px;
-  }
-
-  .card {
-    display: block;
-    margin: 0 auto;
-  }
-
-  .large-screen {
-    display: none;
-  }
-
-  .small-screen {
-    display: block !important;
-    width: 90%;
-    margin: 0 auto;
-  }
-}
-
 .icons {
   width: 60px;
   display: block;
@@ -208,18 +187,6 @@ p {
   margin-left: 80px;
 }
 
-@media (max-width: 577px) {
-  .portfolio-h1 {
-    margin-left: 0px !important;
-    text-align: center !important;
-    font-size: 40px;
-  }
-
-  #myemail {
-    font-size: 25px !important;
-  }
-}
-
 .support {
   background-color: var(--topnav-color);
   color: white;
@@ -250,4 +217,37 @@ p {
 
 .small-screen {
   display: none;
+}
+
+@media (max-width: 992px) {
+  .bottom-margin {
+    margin-bottom: 30px;
+  }
+
+  .card {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .large-screen {
+    display: none;
+  }
+
+  .small-screen {
+    display: block !important;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 577px) {
+  .portfolio-h1 {
+    margin-left: 0px !important;
+    text-align: center !important;
+    font-size: 40px;
+  }
+
+  #myemail {
+    font-size: 25px !important;
+  }
 }
